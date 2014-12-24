@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81233C071A4AAE6A00146B44 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81233BFD1A4AAE6A00146B44 /* MyCell.m */; };
+		81233C081A4AAE6A00146B44 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81233BFE1A4AAE6A00146B44 /* MyCell.xib */; };
+		81233C091A4AAE6A00146B44 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81233C011A4AAE6A00146B44 /* HeaderView.m */; };
+		81233C0A1A4AAE6A00146B44 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81233C021A4AAE6A00146B44 /* HeaderView.xib */; };
+		81233C0B1A4AAE6A00146B44 /* PFGalleryViewController_Wide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81233C031A4AAE6A00146B44 /* PFGalleryViewController_Wide.xib */; };
+		81233C0C1A4AAE6A00146B44 /* PFGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81233C051A4AAE6A00146B44 /* PFGalleryViewController.m */; };
+		81233C0D1A4AAE6A00146B44 /* PFGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81233C061A4AAE6A00146B44 /* PFGalleryViewController.xib */; };
 		81D73E241A49A90200FD91C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D73E231A49A90200FD91C0 /* main.m */; };
 		81D73E271A49A90200FD91C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D73E261A49A90200FD91C0 /* AppDelegate.m */; };
 		81D73E2F1A49A90200FD91C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D73E2E1A49A90200FD91C0 /* Images.xcassets */; };
@@ -248,13 +255,6 @@
 		81D741741A49AC1200FD91C0 /* PFDetailFoldertypeViewController_Wide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740941A49AC1100FD91C0 /* PFDetailFoldertypeViewController_Wide.xib */; };
 		81D741751A49AC1200FD91C0 /* PFGalleryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D740981A49AC1100FD91C0 /* PFGalleryCell.m */; };
 		81D741761A49AC1200FD91C0 /* PFGalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740991A49AC1100FD91C0 /* PFGalleryCell.xib */; };
-		81D741771A49AC1200FD91C0 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D7409D1A49AC1100FD91C0 /* MyCell.m */; };
-		81D741781A49AC1200FD91C0 /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D7409E1A49AC1100FD91C0 /* MyCell.xib */; };
-		81D741791A49AC1200FD91C0 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D740A11A49AC1100FD91C0 /* HeaderView.m */; };
-		81D7417A1A49AC1200FD91C0 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740A21A49AC1100FD91C0 /* HeaderView.xib */; };
-		81D7417B1A49AC1200FD91C0 /* PFGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D740A41A49AC1100FD91C0 /* PFGalleryViewController.m */; };
-		81D7417C1A49AC1200FD91C0 /* PFGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740A51A49AC1100FD91C0 /* PFGalleryViewController.xib */; };
-		81D7417D1A49AC1200FD91C0 /* PFGalleryViewController_Wide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740A61A49AC1100FD91C0 /* PFGalleryViewController_Wide.xib */; };
 		81D7417E1A49AC1200FD91C0 /* PFFoodAndDrinkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D740A91A49AC1100FD91C0 /* PFFoodAndDrinkDetailViewController.m */; };
 		81D7417F1A49AC1200FD91C0 /* PFFoodAndDrinkDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740AA1A49AC1100FD91C0 /* PFFoodAndDrinkDetailViewController.xib */; };
 		81D741801A49AC1200FD91C0 /* PFFoodAndDrinkDetailViewController_Wide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81D740AB1A49AC1100FD91C0 /* PFFoodAndDrinkDetailViewController_Wide.xib */; };
@@ -416,6 +416,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81233BFC1A4AAE6A00146B44 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		81233BFD1A4AAE6A00146B44 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		81233BFE1A4AAE6A00146B44 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		81233C001A4AAE6A00146B44 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		81233C011A4AAE6A00146B44 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		81233C021A4AAE6A00146B44 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		81233C031A4AAE6A00146B44 /* PFGalleryViewController_Wide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFGalleryViewController_Wide.xib; sourceTree = "<group>"; };
+		81233C041A4AAE6A00146B44 /* PFGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGalleryViewController.h; sourceTree = "<group>"; };
+		81233C051A4AAE6A00146B44 /* PFGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGalleryViewController.m; sourceTree = "<group>"; };
+		81233C061A4AAE6A00146B44 /* PFGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFGalleryViewController.xib; sourceTree = "<group>"; };
 		81D73E1E1A49A90200FD91C0 /* RatreeSamosorn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatreeSamosorn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D73E221A49A90200FD91C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81D73E231A49A90200FD91C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -824,16 +834,6 @@
 		81D740971A49AC1100FD91C0 /* PFGalleryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGalleryCell.h; sourceTree = "<group>"; };
 		81D740981A49AC1100FD91C0 /* PFGalleryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGalleryCell.m; sourceTree = "<group>"; };
 		81D740991A49AC1100FD91C0 /* PFGalleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFGalleryCell.xib; sourceTree = "<group>"; };
-		81D7409C1A49AC1100FD91C0 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
-		81D7409D1A49AC1100FD91C0 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
-		81D7409E1A49AC1100FD91C0 /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
-		81D740A01A49AC1100FD91C0 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
-		81D740A11A49AC1100FD91C0 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
-		81D740A21A49AC1100FD91C0 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
-		81D740A31A49AC1100FD91C0 /* PFGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFGalleryViewController.h; sourceTree = "<group>"; };
-		81D740A41A49AC1100FD91C0 /* PFGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFGalleryViewController.m; sourceTree = "<group>"; };
-		81D740A51A49AC1100FD91C0 /* PFGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFGalleryViewController.xib; sourceTree = "<group>"; };
-		81D740A61A49AC1100FD91C0 /* PFGalleryViewController_Wide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFGalleryViewController_Wide.xib; sourceTree = "<group>"; };
 		81D740A81A49AC1100FD91C0 /* PFFoodAndDrinkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFFoodAndDrinkDetailViewController.h; sourceTree = "<group>"; };
 		81D740A91A49AC1100FD91C0 /* PFFoodAndDrinkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFFoodAndDrinkDetailViewController.m; sourceTree = "<group>"; };
 		81D740AA1A49AC1100FD91C0 /* PFFoodAndDrinkDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PFFoodAndDrinkDetailViewController.xib; sourceTree = "<group>"; };
@@ -1034,6 +1034,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81233BFB1A4AAE6A00146B44 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				81233BFC1A4AAE6A00146B44 /* MyCell.h */,
+				81233BFD1A4AAE6A00146B44 /* MyCell.m */,
+				81233BFE1A4AAE6A00146B44 /* MyCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		81233BFF1A4AAE6A00146B44 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				81233C001A4AAE6A00146B44 /* HeaderView.h */,
+				81233C011A4AAE6A00146B44 /* HeaderView.m */,
+				81233C021A4AAE6A00146B44 /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
 		81D73E151A49A90200FD91C0 = {
 			isa = PBXGroup;
 			children = (
@@ -1860,34 +1880,14 @@
 		81D7409A1A49AC1100FD91C0 /* Gallery */ = {
 			isa = PBXGroup;
 			children = (
-				81D7409B1A49AC1100FD91C0 /* Cell */,
-				81D7409F1A49AC1100FD91C0 /* HeaderView */,
-				81D740A31A49AC1100FD91C0 /* PFGalleryViewController.h */,
-				81D740A41A49AC1100FD91C0 /* PFGalleryViewController.m */,
-				81D740A51A49AC1100FD91C0 /* PFGalleryViewController.xib */,
-				81D740A61A49AC1100FD91C0 /* PFGalleryViewController_Wide.xib */,
+				81233BFB1A4AAE6A00146B44 /* Cell */,
+				81233BFF1A4AAE6A00146B44 /* HeaderView */,
+				81233C041A4AAE6A00146B44 /* PFGalleryViewController.h */,
+				81233C051A4AAE6A00146B44 /* PFGalleryViewController.m */,
+				81233C031A4AAE6A00146B44 /* PFGalleryViewController_Wide.xib */,
+				81233C061A4AAE6A00146B44 /* PFGalleryViewController.xib */,
 			);
 			path = Gallery;
-			sourceTree = "<group>";
-		};
-		81D7409B1A49AC1100FD91C0 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				81D7409C1A49AC1100FD91C0 /* MyCell.h */,
-				81D7409D1A49AC1100FD91C0 /* MyCell.m */,
-				81D7409E1A49AC1100FD91C0 /* MyCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		81D7409F1A49AC1100FD91C0 /* HeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				81D740A01A49AC1100FD91C0 /* HeaderView.h */,
-				81D740A11A49AC1100FD91C0 /* HeaderView.m */,
-				81D740A21A49AC1100FD91C0 /* HeaderView.xib */,
-			);
-			path = HeaderView;
 			sourceTree = "<group>";
 		};
 		81D740A71A49AC1100FD91C0 /* Menu */ = {
@@ -2353,8 +2353,8 @@
 				81D741A51A49AC1200FD91C0 /* PFProfileViewController.xib in Resources */,
 				81D7418A1A49AC1200FD91C0 /* bt_setting@2x.png in Resources */,
 				81D7424B1A49AD1F00FD91C0 /* ic_notification@2x.png in Resources */,
+				81233C0D1A4AAE6A00146B44 /* PFGalleryViewController.xib in Resources */,
 				81D742AD1A49AFB700FD91C0 /* th_contact_off@3x.png in Resources */,
-				81D7417D1A49AC1200FD91C0 /* PFGalleryViewController_Wide.xib in Resources */,
 				81D742B21A49AFB700FD91C0 /* th_menu_on@3x.png in Resources */,
 				81D742941A49AFB700FD91C0 /* th_update_on.png in Resources */,
 				81D741161A49AC1200FD91C0 /* chapter01.png in Resources */,
@@ -2385,6 +2385,7 @@
 				81D741511A49AC1200FD91C0 /* ic_bt_add@2x.png in Resources */,
 				81D741B81A49AC1200FD91C0 /* NotBoxReadedIp4.png in Resources */,
 				81D7415F1A49AC1200FD91C0 /* dot_white.png in Resources */,
+				81233C0B1A4AAE6A00146B44 /* PFGalleryViewController_Wide.xib in Resources */,
 				81D7412B1A49AC1200FD91C0 /* PFMapViewController_Wide.xib in Resources */,
 				81D741CA1A49AC1200FD91C0 /* PFUpdateViewController.xib in Resources */,
 				81D742AE1A49AFB700FD91C0 /* th_contact_on@3x.png in Resources */,
@@ -2429,7 +2430,6 @@
 				81D741521A49AC1200FD91C0 /* line1.png in Resources */,
 				81D741171A49AC1200FD91C0 /* chapter01@2x.png in Resources */,
 				81D742A21A49AFB700FD91C0 /* th_menu_on@2x.png in Resources */,
-				81D7417C1A49AC1200FD91C0 /* PFGalleryViewController.xib in Resources */,
 				81D741891A49AC1200FD91C0 /* bt_setting.png in Resources */,
 				81D741881A49AC1200FD91C0 /* PFAccountCell.xib in Resources */,
 				81D741581A49AC1200FD91C0 /* PFMemberViewController_Wide.xib in Resources */,
@@ -2477,6 +2477,7 @@
 				81D742901A49AFB700FD91C0 /* th_member_on.png in Resources */,
 				81D742A91A49AFB700FD91C0 /* en_menu_off@3x.png in Resources */,
 				81D7415A1A49AC1200FD91C0 /* PFRewardViewController.xib in Resources */,
+				81233C0A1A4AAE6A00146B44 /* HeaderView.xib in Resources */,
 				81D741B61A49AC1200FD91C0 /* NotBoxNoReadIp4@2x.png in Resources */,
 				81D742961A49AFB700FD91C0 /* en_contact_on@2x.png in Resources */,
 				81D7424E1A49AD1F00FD91C0 /* ic_setting@3x.png in Resources */,
@@ -2496,16 +2497,15 @@
 				81D741A21A49AC1200FD91C0 /* PFEditViewController.xib in Resources */,
 				81D7411A1A49AC1200FD91C0 /* chapter03.png in Resources */,
 				81D7429B1A49AFB700FD91C0 /* en_update_off@2x.png in Resources */,
-				81D7417A1A49AC1200FD91C0 /* HeaderView.xib in Resources */,
 				81D741C01A49AC1200FD91C0 /* PFNotificationCell.xib in Resources */,
 				81D741231A49AC1200FD91C0 /* Powered@2x.png in Resources */,
 				81D7415D1A49AC1200FD91C0 /* PFDetailAcCell.xib in Resources */,
 				81D741551A49AC1200FD91C0 /* stamp@2x.png in Resources */,
 				81D7418D1A49AC1200FD91C0 /* ic_birthday@2x.png in Resources */,
-				81D741781A49AC1200FD91C0 /* MyCell.xib in Resources */,
 				81D741BD1A49AC1200FD91C0 /* PFDetailViewController.xib in Resources */,
 				81D741261A49AC1200FD91C0 /* PFContactViewController_Wide.xib in Resources */,
 				81D741851A49AC1200FD91C0 /* PFOrderViewController.xib in Resources */,
+				81233C081A4AAE6A00146B44 /* MyCell.xib in Resources */,
 				81D7411C1A49AC1200FD91C0 /* ic_mail.png in Resources */,
 				81D742A11A49AFB700FD91C0 /* th_menu_off@2x.png in Resources */,
 				81D742991A49AFB700FD91C0 /* en_menu_off@2x.png in Resources */,
@@ -2566,6 +2566,7 @@
 				81D741BF1A49AC1200FD91C0 /* PFNotificationCell.m in Sources */,
 				81D7415C1A49AC1200FD91C0 /* PFDetailAcCell.m in Sources */,
 				81D73FB51A49ABE000FD91C0 /* PSTGridLayoutRow.m in Sources */,
+				81233C091A4AAE6A00146B44 /* HeaderView.m in Sources */,
 				81D73FDD1A49ABE000FD91C0 /* TKCalendarMonthView.m in Sources */,
 				81D73FFF1A49ABE000FD91C0 /* UIActionSheet+TKCategory.m in Sources */,
 				81D73FAE1A49ABE000FD91C0 /* PSTCollectionViewData.m in Sources */,
@@ -2602,7 +2603,6 @@
 				81D7416B1A49AC1200FD91C0 /* PFFoldertype1Cell.m in Sources */,
 				81D741BC1A49AC1200FD91C0 /* PFDetailViewController.m in Sources */,
 				81D741291A49AC1200FD91C0 /* PFMapViewController.m in Sources */,
-				81D741791A49AC1200FD91C0 /* HeaderView.m in Sources */,
 				81D73FCB1A49ABE000FD91C0 /* PFMapView.m in Sources */,
 				81D73FA91A49ABE000FD91C0 /* README.mdown in Sources */,
 				81D73FEF1A49ABE000FD91C0 /* TKProgressBarView.m in Sources */,
@@ -2622,7 +2622,6 @@
 				81D73F831A49ABDF00FD91C0 /* AFHTTPRequestOperationManager.m in Sources */,
 				81D7400C1A49ABE000FD91C0 /* UITextField+TKCategory.m in Sources */,
 				81D7400A1A49ABE000FD91C0 /* UIScreen+TKCategory.m in Sources */,
-				81D741771A49AC1200FD91C0 /* MyCell.m in Sources */,
 				81D73FF31A49ABE000FD91C0 /* TKShapeView.m in Sources */,
 				81D741A11A49AC1200FD91C0 /* PFEditViewController.m in Sources */,
 				81D73FCA1A49ABE000FD91C0 /* NSDate+Helper.m in Sources */,
@@ -2658,6 +2657,7 @@
 				81D73FED1A49ABE000FD91C0 /* TKNetworkQueue.m in Sources */,
 				81D73FCC1A49ABE000FD91C0 /* PagedImageScrollView.m in Sources */,
 				81D73F921A49ABDF00FD91C0 /* AsyncImageView.m in Sources */,
+				81233C0C1A4AAE6A00146B44 /* PFGalleryViewController.m in Sources */,
 				81D73FAC1A49ABE000FD91C0 /* PSTCollectionViewCell.m in Sources */,
 				81D73F891A49ABDF00FD91C0 /* AFURLRequestSerialization.m in Sources */,
 				81D73FD91A49ABE000FD91C0 /* TKCalendarDayEventView.m in Sources */,
@@ -2672,7 +2672,6 @@
 				81D741751A49AC1200FD91C0 /* PFGalleryCell.m in Sources */,
 				81D741681A49AC1200FD91C0 /* PFActivityDetailViewController.m in Sources */,
 				81D73FDE1A49ABE000FD91C0 /* TKCalendarMonthViewController.m in Sources */,
-				81D7417B1A49AC1200FD91C0 /* PFGalleryViewController.m in Sources */,
 				81D73FA01A49ABE000FD91C0 /* MWGridCell.m in Sources */,
 				81D741671A49AC1200FD91C0 /* PFActivityCalendarViewController.m in Sources */,
 				81D73F931A49ABE000FD91C0 /* AMBlurView.m in Sources */,
@@ -2695,6 +2694,7 @@
 				81D73FDF1A49ABE000FD91C0 /* TKCoverflowView.m in Sources */,
 				81D73F911A49ABDF00FD91C0 /* UIWebView+AFNetworking.m in Sources */,
 				81D740091A49ABE000FD91C0 /* UIImageView+TKCategory.m in Sources */,
+				81233C071A4AAE6A00146B44 /* MyCell.m in Sources */,
 				81D7416F1A49AC1200FD91C0 /* PFDetailFoldertype1ViewController.m in Sources */,
 				81D741D21A49ACF600FD91C0 /* TabBarViewController.m in Sources */,
 				81D7400D1A49ABE000FD91C0 /* UIView+TKCategory.m in Sources */,

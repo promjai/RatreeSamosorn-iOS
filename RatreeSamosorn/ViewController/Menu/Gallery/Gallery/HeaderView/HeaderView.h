@@ -7,19 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UILabel+UILabelDynamicHeight.h"
-
-@protocol HeaderViewDelegate <NSObject>
-
-- (void)header;
-
-@end
 
 @interface HeaderView : UICollectionReusableView
 
-@property (assign, nonatomic) id <HeaderViewDelegate> delegate;
-
-@property (strong, nonatomic) IBOutlet UILabel_UILabelDynamicHeight *detail;
-- (IBAction)headerTapped:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *title;
+@property (weak, nonatomic) IBOutlet UILabel *detail;
 
 @end
