@@ -45,14 +45,12 @@
 @property (strong, nonatomic) NSString *rowCount;
 
 @property (strong, nonatomic) IBOutlet UIView *bgnewsView;
-@property (strong, nonatomic) IBOutlet UIView *bgmessageView;
 
 @property (strong, nonatomic) IBOutlet UIImageView *thumUser;
 @property (strong, nonatomic) IBOutlet UITextField *display_name;
 
 @property (strong, nonatomic) IBOutlet UILabel *notificationLabel;
 @property (strong, nonatomic) IBOutlet UILabel *newupdateLabel;
-@property (strong, nonatomic) IBOutlet UILabel *messageLabel;
 @property (strong, nonatomic) IBOutlet UILabel *languageLabel;
 @property (strong, nonatomic) IBOutlet UILabel *applanguageLabel;
 @property (strong, nonatomic) IBOutlet UILabel *appstatuslanguageLabel;
@@ -63,10 +61,8 @@
 - (IBAction)applanguage:(id)sender;
 
 - (IBAction)switchNewsonoff:(id)sender;
-- (IBAction)switchMessageonoff:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UISwitch *switchNews;
-@property (strong, nonatomic) IBOutlet UISwitch *switchMessage;
 
 - (IBAction)logoutTapped:(id)sender;
 

@@ -46,7 +46,6 @@ NSString *removeBreckets;
         self.navigationItem.title = @"Setting";
         self.notificationLabel.text = @"Notification setting";
         self.newupdateLabel.text = @"News Update";
-        self.messageLabel.text = @"Message from shop";
         self.languageLabel.text = @"Language setting";
         self.applanguageLabel.text = @"App Language";
         self.appstatuslanguageLabel.text = @"EN";
@@ -55,7 +54,6 @@ NSString *removeBreckets;
         self.navigationItem.title = @"ตั้งค่า";
         self.notificationLabel.text = @"ตั้งค่าการแจ้งเตือน";
         self.newupdateLabel.text = @"ข่าวใหม่";
-        self.messageLabel.text = @"ข้อความจากระบบ";
         self.languageLabel.text = @"ตั้งค่าภาษา";
         self.applanguageLabel.text = @"ภาษาแอพพลิเคชั่น";
         self.appstatuslanguageLabel.text = @"TH";
@@ -145,12 +143,6 @@ NSString *removeBreckets;
         self.switchNews.on = NO;
     }
     
-    if ([[response objectForKey:@"notify_message"] intValue] == 1) {
-        self.switchMessage.on = YES;
-    } else {
-        self.switchMessage.on = NO;
-    }
-    
 }
 
 - (void)PFRatreeSamosornApi:(id)sender getUserSettingErrorResponse:(NSString *)errorResponse {
@@ -162,11 +154,6 @@ NSString *removeBreckets;
         self.switchNews.on = NO;
     }
     
-    if ([[[self.settingOffline objectForKey:@"settingOffline"] objectForKey:@"notify_message"] intValue] == 1) {
-        self.switchMessage.on = YES;
-    } else {
-        self.switchMessage.on = NO;
-    }
 }
 
 - (IBAction)switchNewsonoff:(id)sender{
@@ -175,16 +162,6 @@ NSString *removeBreckets;
         [self.RatreeSamosornApi settingNews:@"1"];
     } else {
         [self.RatreeSamosornApi settingNews:@"0"];
-    }
-    
-}
-
-- (IBAction)switchMessageonoff:(id)sender{
-    
-    if(self.switchMessage.on) {
-        [self.RatreeSamosornApi settingMessage:@"1"];
-    } else {
-        [self.RatreeSamosornApi settingMessage:@"0"];
     }
     
 }

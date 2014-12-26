@@ -154,7 +154,6 @@
 
 #pragma mark - User Setting
 - (void)settingNews:(NSString *)status;
-- (void)settingMessage:(NSString *)status;
 - (void)settingUser:(NSString *)obj1 email:(NSString *)obj2 website:(NSString *)obj3 tel:(NSString *)obj4 gender:(NSString *)obj5 birthday:(NSString *)obj6;
 - (void)userPictureUpload:(NSString *)picture_base64;
 - (void)updateSetting:(NSString *)profilename email:(NSString *)email website:(NSString *)website tel:(NSString *)tel gender:(NSString *)gender birthday:(NSString *)birthday;

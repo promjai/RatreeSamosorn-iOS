@@ -150,19 +150,6 @@
     }];
 }
 
-- (void)settingMessage:(NSString *)status {
-    self.urlStr= [[NSString alloc] initWithFormat:@"%@user/setting/%@",API_URL,[self getUserId]];
-    NSDictionary *parameters = @{@"notify_message":status };
-    self.manager = [AFHTTPRequestOperationManager manager];
-    self.manager.responseSerializer = [AFJSONResponseSerializer serializer];
-    [self.manager.requestSerializer setValue:nil forHTTPHeaderField:@"X-Auth-Token"];
-    [self.manager PUT:self.urlStr parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        [self.delegate PFRatreeSamosornApi:self settingNewsResponse:responseObject];
-    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-        [self.delegate PFRatreeSamosornApi:self settingNewsErrorResponse:[error localizedDescription]];
-    }];
-}
-
 - (void)settingUser:(NSString *)obj1 email:(NSString *)obj2 website:(NSString *)obj3 tel:(NSString *)obj4 gender:(NSString *)obj5 birthday:(NSString *)obj6 {
     self.urlStr = [[NSString alloc] initWithFormat:@"%@user/setting/%@",API_URL,[self getUserId]];
     NSDictionary *parameters = @{@"show_facebook":obj1 , @"show_email":obj2 , @"show_website":obj3 , @"show_mobile":obj4 , @"show_gender":obj5 , @"show_birth_date":obj6};
