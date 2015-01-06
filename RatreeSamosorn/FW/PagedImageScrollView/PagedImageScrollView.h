@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DLImageLoader.h"
 
 enum PageControlPosition {
     PageControlPositionRightCorner = 0,

@@ -108,11 +108,7 @@ NSTimer *timmer;
     for (int i = 0; i < countPicture; i++) {
         NSString *urlStr = [[NSString alloc] initWithFormat:@"%@",[[[images objectForKey:@"data"] objectAtIndex:i] objectForKey:@"url"]];
         
-        NSURL *url = [[NSURL alloc] initWithString:urlStr];
-        NSData *data = [NSData dataWithContentsOfURL : url];
-        UIImage *image = [UIImage imageWithData: data];
-        
-        [self.ArrImgs addObject:image];
+        [self.ArrImgs addObject:urlStr];
     }
     return self.ArrImgs;
 }

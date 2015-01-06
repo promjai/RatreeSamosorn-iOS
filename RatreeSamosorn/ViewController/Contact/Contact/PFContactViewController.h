@@ -25,7 +25,7 @@
 
 @end
 
-@interface PFContactViewController : UIViewController <MFMailComposeViewControllerDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface PFContactViewController : UIViewController <MFMailComposeViewControllerDelegate,UITableViewDelegate>
 
 @property (assign, nonatomic) id delegate;
 @property (strong, nonatomic) PFRatreeSamosornApi *RatreeSamosornApi;

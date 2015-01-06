@@ -63,7 +63,7 @@ NSString *removeBreckets;
 }
 
 
-- (void)setScrollViewContents: (NSArray *)images
+- (void)setScrollViewContents:(NSArray *)images
 {
     //remove original subviews first.
     for (UIView *subview in [self.scrollView subviews]) {
@@ -80,7 +80,11 @@ NSString *removeBreckets;
         imageView.layer.masksToBounds = YES;
         imageView.contentMode = UIViewContentModeScaleAspectFill;
         
-        [imageView setImage:images[i]];
+        [DLImageLoader loadImageFromURL:images[i]
+                              completed:^(NSError *error, NSData *imgData) {
+                                  imageView.image = [UIImage imageWithData:imgData];
+                              }];
+        
         [self.scrollView addSubview:imageView];
     }
     self.pageControl.numberOfPages = images.count;
