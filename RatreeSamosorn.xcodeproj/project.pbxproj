@@ -2288,6 +2288,7 @@
 					};
 					81D73E361A49A90200FD91C0 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Q246MJM9JV;
 						TestTargetID = 81D73E1D1A49A90200FD91C0;
 					};
 				};
@@ -2755,8 +2756,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phee Puthaprasert (Q8MZLL79Y4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phee Puthaprasert (Q8MZLL79Y4)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2776,7 +2777,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "8bed7151-2947-4283-b3a8-b84e6fb5d26f";
+				PROVISIONING_PROFILE = "b63978c5-6e2d-40fd-96fa-348d83e4ec8f";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2798,8 +2799,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Phee Puthaprasert (Q8MZLL79Y4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phee Puthaprasert (Q8MZLL79Y4)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2812,7 +2813,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "8bed7151-2947-4283-b3a8-b84e6fb5d26f";
+				PROVISIONING_PROFILE = "b63978c5-6e2d-40fd-96fa-348d83e4ec8f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2823,8 +2824,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phee Puthaprasert (Q8MZLL79Y4)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RatreeSamosorn/FW",
@@ -2834,7 +2835,7 @@
 				INFOPLIST_FILE = RatreeSamosorn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8bed7151-2947-4283-b3a8-b84e6fb5d26f";
+				PROVISIONING_PROFILE = "b63978c5-6e2d-40fd-96fa-348d83e4ec8f";
 			};
 			name = Debug;
 		};
@@ -2843,8 +2844,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Platwofusion Co.,Ltd. (Q246MJM9JV)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Phee Puthaprasert (Q8MZLL79Y4)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/RatreeSamosorn/FW",
@@ -2854,7 +2855,7 @@
 				INFOPLIST_FILE = RatreeSamosorn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8bed7151-2947-4283-b3a8-b84e6fb5d26f";
+				PROVISIONING_PROFILE = "b63978c5-6e2d-40fd-96fa-348d83e4ec8f";
 			};
 			name = Release;
 		};
@@ -2862,6 +2863,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2873,6 +2876,7 @@
 				INFOPLIST_FILE = RatreeSamosornTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatreeSamosorn.app/RatreeSamosorn";
 			};
 			name = Debug;
@@ -2881,6 +2885,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -2888,6 +2894,7 @@
 				INFOPLIST_FILE = RatreeSamosornTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RatreeSamosorn.app/RatreeSamosorn";
 			};
 			name = Release;

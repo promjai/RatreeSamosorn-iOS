@@ -67,8 +67,8 @@ NSString *password;
     if (![[self.RatreeSamosornApi getLanguage] isEqualToString:@"TH"]) {
         [self.emailSignIn setPlaceholder:@"Username"];
         [self.passwordSignIn setPlaceholder:@"Password"];
-        [self.signin_bt setTitle:@"Login" forState:UIControlStateNormal];
-        [self.signup_bt setTitle:@"Sign up" forState:UIControlStateNormal];
+        [self.signin_bt setTitle:@"Log In" forState:UIControlStateNormal];
+        [self.signup_bt setTitle:@"Sign Up" forState:UIControlStateNormal];
         
         [self.username setPlaceholder:@"Username"];
         [self.emailSignUp setPlaceholder:@"E-mail"];

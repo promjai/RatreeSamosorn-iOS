@@ -75,7 +75,7 @@ NSTimer *timmer;
         [self.confirmButton setTitle:@"Confirm" forState:UIControlStateNormal];
         [self.amountFinishButton setTitle:@"OK" forState:UIControlStateNormal];
         [self.amountFailButton setTitle:@"OK" forState:UIControlStateNormal];
-        [self.signinButton setTitle:@"Sign in" forState:UIControlStateNormal];
+        [self.signinButton setTitle:@"Sign In" forState:UIControlStateNormal];
     } else {
         self.navItem.title = @"สมาชิก";
         self.pointTxt.text = @"คะแนน";
